@@ -1,0 +1,22 @@
+HTTP:
+     
+    * HTTP- hyper text tranfer protocol
+    * It is used in client server communication
+    * by using http user send the request to the server and the server send the response to the user
+
+HTTP 1.1:
+
+    * HTTP 1.1 is created in 1997
+    * its works on the textual format
+    * there is head of line blocking that blocks all the requests behind it until it doesn't get its all resource
+    * it use request resource inlining for use getting multiple pages
+    * it compresses data by itself   
+     
+        
+HTTP 2:
+     
+    * HTTP 2 is created in 2015
+    * its works on the binary protocol
+    * it allows multiplexing so one tcp connection is required for multiple request
+    * it uses push frame by sever that collect all multiple pages
+    * it uses HPACK for data compression
